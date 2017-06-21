@@ -21,7 +21,7 @@ a {
   padding: 25px;
   width: 940px;
   height: 600px;
-  margin: 0 auto -130px auto;
+  margin: 0 0 -130px 0;
   background-size: 100%;
   background-repeat: no-repeat; }
 
@@ -113,12 +113,12 @@ a {
   color: #ffffff;
   font-size: 10px; }
 
-@media (max-width: 939px) {
+@media (max-width: 919px) {
   .specialContainer {
     padding: 0px;
     width: 280px;
     height: 540px;
-    margin: 100px auto 100px auto;
+    margin: 100px 0 100px 0;
     background-size: 100%;
     background-repeat: no-repeat;
     background-color: #ffffff; }
