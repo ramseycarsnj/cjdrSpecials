@@ -11,6 +11,14 @@ body {
 a {
   text-decoration: none; }
 
+.spcMob {
+  display: none; }
+  .spcMob .yearMake {
+    font-size: 14px; }
+  .spcMob .trim {
+    text-align: left;
+    margin: 0 0 0 35px; }
+
 .vehicle {
   background-color: rgba(0, 0, 0, 0.3);
   margin: 0 0 0 -25px;
@@ -29,7 +37,7 @@ a {
   background-image: url("200.png"); }
 
 .list2 {
-  background-image: url("RAM.png"); }
+  background-image: url("charger.png"); }
 
 .yearMake {
   font-weight: 300;
@@ -50,15 +58,15 @@ a {
   width: 500px;
   text-align: center;
   position: relative;
-  top: 220px;
-  left: 510px; }
+  top: 278px;
+  left: 622px; }
 
 .clickPriceButton {
   text-decoration: none;
   font-size: 12px;
   background-color: #620f0f;
   color: #ffffff;
-  padding: 7px 143px 5px 144px;
+  padding: 7px 61px 5px 61px;
   z-index: 100; }
 
 .pricer:hover .clickPriceButton {
@@ -66,28 +74,28 @@ a {
 
 .yourPrice {
   background-color: rgba(255, 255, 255, 0.8);
-  width: 330px;
+  width: 166px;
   margin: auto;
   padding: 15px 10px;
   z-index: 99;
   text-decoration: none;
   color: #000000;
   font-weight: 400;
-  font-size: 22px; }
+  font-size: 16px; }
 
 .liner {
   text-decoration: line-through; }
 
 .valHolder {
   background-color: rgba(255, 255, 255, 0.8);
-  width: 300px;
+  width: 140px;
   padding: 20px 20px 25px 30px;
   position: relative;
-  top: -195px;
-  left: 585px; }
+  top: -203px;
+  left: 775px; }
 
 .msrp {
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 800; }
 
 .msrpSettings {
@@ -98,7 +106,7 @@ a {
   font-size: 22px; }
 
 .savings {
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 800;
   color: green;
   vertical-align: top; }
@@ -113,15 +121,15 @@ a {
   color: #ffffff;
   font-size: 10px; }
 
+.hellcatTerms {
+  top: 255px; }
+
 @media (max-width: 919px) {
-  .specialContainer {
-    padding: 0px;
-    width: 280px;
-    height: 540px;
-    margin: 100px 0 100px 0;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-color: #ffffff; }
+  .spcMob {
+    font-size: 14px;
+    display: block; }
+  .mobHide {
+    display: none; }
   .priceContainer {
     text-align: center;
     position: relative;
@@ -194,7 +202,7 @@ a {
     font-size: 70px; }
   .terms {
     position: relative;
-    top: 155px;
+    top: 200px;
     left: 10px;
     font-size: 10px;
     color: #000; }
@@ -210,6 +218,29 @@ a {
     width: 280px;
     padding: 0; }
   .list1 {
-    background-image: url("200M.png"); }
+    background-image: url("200M.png");
+    padding: 0px;
+    width: 280px;
+    height: 540px;
+    margin: 100px 0 100px 0;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #ffffff; }
   .list2 {
-    background-image: url("RAMM.png"); } }
+    background-image: url("chargerM.png");
+    padding: 0px;
+    width: 280px;
+    height: 365px;
+    margin: 100px 0 100px 0;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #ffffff; }
+    .list2 .priceContainer {
+      text-align: center;
+      position: relative;
+      top: 170px;
+      left: 0px;
+      width: 280px;
+      padding: 0px;
+      border: 0px;
+      margin: 0px; } }
