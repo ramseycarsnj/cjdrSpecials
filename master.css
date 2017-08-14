@@ -20,12 +20,14 @@ a {
     margin: 0 0 0 35px; }
 
 .vehicle {
+  z-index: 1000;
   background-color: rgba(0, 0, 0, 0.3);
   margin: 0 0 0 -25px;
   width: 500px;
   padding: 10px 0 10px 20px; }
 
 .specialContainer {
+  z-index: 500;
   padding: 25px;
   width: 930px;
   height: 600px;
@@ -46,21 +48,41 @@ a {
   background-image: url("CHH2234.png"); }
 
 .yearMake {
+  z-index: 30;
   font-weight: 300;
   color: #fff; }
 
 .model {
+  z-index: 30;
   font-size: 90px;
   color: #fff; }
 
 .trim {
+  z-index: 30;
   font-size: 42px;
   color: #fff; }
 
+.yearMakeDark {
+  z-index: 30;
+  font-weight: 300;
+  color: #000; }
+
+.modelDark {
+  z-index: 30;
+  font-size: 90px;
+  color: #000; }
+
+.trimDark {
+  z-index: 30;
+  font-size: 42px;
+  color: #000; }
+
 .vehicleImage {
+  z-index: 2;
   width: 100%; }
 
 .priceContainer {
+  z-index: 3;
   width: 500px;
   text-align: center;
   position: relative;
@@ -68,6 +90,7 @@ a {
   left: 612px; }
 
 .priceContainerR {
+  z-index: 3;
   width: 500px;
   text-align: center;
   position: relative;
@@ -80,7 +103,7 @@ a {
   background-color: #620f0f;
   color: #ffffff;
   padding: 7px 61px 5px 61px;
-  z-index: 100; }
+  z-index: 200; }
 
 .clickPriceButtonR {
   text-decoration: none;
@@ -88,7 +111,10 @@ a {
   background-color: #620f0f;
   color: #ffffff;
   padding: 7px 48px 5px 48px;
-  z-index: 100; }
+  z-index: 200; }
+
+.clickPriceButtonR:hover {
+  background-color: #4f0c0c; }
 
 .pricer:hover .clickPriceButton {
   background-color: #7a0c0c; }
@@ -98,11 +124,44 @@ a {
   width: 166px;
   margin: auto;
   padding: 15px 10px;
-  z-index: 99;
+  z-index: 101;
   text-decoration: none;
   color: #000000;
   font-weight: 400;
   font-size: 16px; }
+
+.info {
+  text-decoration: none;
+  text-align: center;
+  font-size: 12px;
+  background-color: #620f0f;
+  color: #ffffff;
+  padding: 7px 0px 5px 0px;
+  width: 186px;
+  z-index: 100;
+  right: 0;
+  top: 354px;
+  position: absolute;
+  border-bottom: 1px solid #4f0c0c; }
+
+.info:hover {
+  background-color: #4f0c0c; }
+
+.vehicleInfo {
+  background-color: white;
+  color: #000000;
+  position: absolute;
+  width: 940px;
+  padding: 35px 20px 20px 20px;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  height: 421px;
+  display: none; }
+  .vehicleInfo ul {
+    margin: 30px 0 0 30px;
+    font-size: 25px;
+    line-height: 1.5; }
 
 .liner {
   text-decoration: line-through; }
@@ -140,6 +199,13 @@ a {
   position: relative;
   top: 70px;
   color: #ffffff;
+  font-size: 10px; }
+
+.termsDark {
+  position: absolute;
+  top: 458px;
+  left: 25px;
+  color: #000;
   font-size: 10px; }
 
 .hellcatTerms {
@@ -242,6 +308,7 @@ a {
   .savingsSettings {
     padding: 0 0 0 10px; }
   .vehicle {
+    z-index: 1000;
     position: absolute;
     background-color: white;
     margin: -67px 0 0 0px;
