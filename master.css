@@ -164,6 +164,74 @@ a {
     font-size: 25px;
     line-height: 1.5; }
 
+.info2 {
+  text-decoration: none;
+  text-align: center;
+  font-size: 12px;
+  background-color: #620f0f;
+  color: #ffffff;
+  padding: 7px 0px 5px 0px;
+  width: 166px;
+  z-index: 100;
+  right: 0;
+  top: 875px;
+  position: absolute;
+  border-bottom: 1px solid #4f0c0c; }
+
+.info2:hover {
+  cursor: pointer;
+  background-color: #4f0c0c; }
+
+.vehicleInfo2 {
+  background-color: white;
+  color: #000000;
+  position: absolute;
+  width: 940px;
+  padding: 35px 20px 20px 20px;
+  top: 520px;
+  left: 0;
+  z-index: 1;
+  height: 421px;
+  display: none; }
+  .vehicleInfo2 ul {
+    margin: 30px 0 0 30px;
+    font-size: 25px;
+    line-height: 1.5; }
+
+.info3 {
+  text-decoration: none;
+  text-align: center;
+  font-size: 12px;
+  background-color: #620f0f;
+  color: #ffffff;
+  padding: 7px 0px 5px 0px;
+  width: 166px;
+  z-index: 100;
+  right: 0;
+  top: 1394px;
+  position: absolute;
+  border-bottom: 1px solid #4f0c0c; }
+
+.info3:hover {
+  cursor: pointer;
+  background-color: #4f0c0c; }
+
+.vehicleInfo3 {
+  background-color: white;
+  color: #000000;
+  position: absolute;
+  width: 940px;
+  padding: 35px 20px 20px 20px;
+  top: 1040px;
+  left: 0;
+  z-index: 1;
+  height: 421px;
+  display: none; }
+  .vehicleInfo3 ul {
+    margin: 30px 0 0 30px;
+    font-size: 25px;
+    line-height: 1.5; }
+
 .liner {
   text-decoration: line-through; }
 
@@ -213,6 +281,18 @@ a {
   top: 255px; }
 
 @media (max-width: 919px) {
+  .info {
+    display: none; }
+  .vehicleInfo {
+    display: none; }
+  .info2 {
+    display: none; }
+  .vehicleInfo2 {
+    display: none; }
+  .info3 {
+    display: none; }
+  .vehicleInfo3 {
+    display: none; }
   .spcMob {
     font-size: 14px;
     display: block; }
