@@ -145,6 +145,7 @@ a {
   border-bottom: 1px solid #4f0c0c; }
 
 .info:hover {
+  cursor: pointer;
   background-color: #4f0c0c; }
 
 .vehicleInfo {
