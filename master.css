@@ -47,6 +47,9 @@ a {
 .list4 {
   background-image: url("CHH2234.png"); }
 
+.list5 {
+  background-image: url("CHH2441.png"); }
+
 .yearMake {
   z-index: 30;
   font-weight: 300;
@@ -228,6 +231,40 @@ a {
   height: 421px;
   display: none; }
   .vehicleInfo3 ul {
+    margin: 30px 0 0 30px;
+    font-size: 25px;
+    line-height: 1.5; }
+
+.info4 {
+  text-decoration: none;
+  text-align: center;
+  font-size: 12px;
+  background-color: #620f0f;
+  color: #ffffff;
+  padding: 7px 0px 5px 0px;
+  width: 166px;
+  z-index: 100;
+  right: 0;
+  top: 1914px;
+  position: absolute;
+  border-bottom: 1px solid #4f0c0c; }
+
+.info4:hover {
+  cursor: pointer;
+  background-color: #4f0c0c; }
+
+.vehicleInfo4 {
+  background-color: white;
+  color: #000000;
+  position: absolute;
+  width: 940px;
+  padding: 35px 20px 20px 20px;
+  top: 1040px;
+  left: 0;
+  z-index: 1;
+  height: 421px;
+  display: none; }
+  .vehicleInfo4 ul {
     margin: 30px 0 0 30px;
     font-size: 25px;
     line-height: 1.5; }
@@ -425,6 +462,15 @@ a {
     background-color: #ffffff; }
   .list4 {
     background-image: url("CHH2234M.png");
+    padding: 0px;
+    width: 280px;
+    height: 365px;
+    margin: 100px 0 100px 0;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #ffffff; }
+  .list5 {
+    background-image: url("CHH2441M.png");
     padding: 0px;
     width: 280px;
     height: 365px;
