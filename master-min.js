@@ -31,4 +31,20 @@ $(document).ready(function() {
             this.innerHTML = "VEHICLE INFO";
         }
     });
+    $(".info5").click(function() {
+        $(".vehicleInfo5").fadeToggle("slow", function() {});
+        if (this.innerHTML === "VEHICLE INFO") {
+            this.innerHTML = "CLOSE INFO";
+        } else {
+            this.innerHTML = "VEHICLE INFO";
+        }
+    });
+    $(".info6").click(function() {
+        $(".vehicleInfo6").fadeToggle("slow", function() {});
+        if (this.innerHTML === "VEHICLE INFO") {
+            this.innerHTML = "CLOSE INFO";
+        } else {
+            this.innerHTML = "VEHICLE INFO";
+        }
+    });
 });
