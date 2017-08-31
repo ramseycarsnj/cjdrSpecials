@@ -64,4 +64,15 @@ $(document).ready(function() {
       this.innerHTML = 'VEHICLE INFO';
     }
   });
+
+  $('.info7').click(function(){
+    $('.vehicleInfo7').fadeToggle('slow', function(){
+
+    });
+    if (this.innerHTML === 'VEHICLE INFO') {
+      this.innerHTML = 'CLOSE INFO';
+    } else {
+      this.innerHTML = 'VEHICLE INFO';
+    }
+  });
 });
