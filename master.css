@@ -106,7 +106,7 @@ a {
   width: 500px;
   text-align: center;
   position: relative;
-  top: 273px;
+  top: 216px;
   left: 612px; }
 
 .clickPriceButton {
@@ -152,7 +152,7 @@ a {
   width: 166px;
   z-index: 100;
   right: 0;
-  top: 354px;
+  top: 297px;
   position: absolute;
   border-bottom: 1px solid #4f0c0c; }
 
@@ -165,8 +165,8 @@ a {
   color: #000000;
   position: absolute;
   width: 940px;
-  padding: 35px 20px 20px 20px;
-  top: 0;
+  padding: 0px 20px 20px 20px;
+  top: 10PX;
   left: 0;
   z-index: 1;
   height: 421px;
@@ -186,7 +186,7 @@ a {
   width: 166px;
   z-index: 100;
   right: 0;
-  top: 875px;
+  top: 817px;
   position: absolute;
   border-bottom: 1px solid #4f0c0c; }
 
@@ -220,7 +220,7 @@ a {
   width: 166px;
   z-index: 100;
   right: 0;
-  top: 1394px;
+  top: 1337px;
   position: absolute;
   border-bottom: 1px solid #4f0c0c; }
 
@@ -254,7 +254,7 @@ a {
   width: 166px;
   z-index: 100;
   right: 0;
-  top: 1914px;
+  top: 1858px;
   position: absolute;
   border-bottom: 1px solid #4f0c0c; }
 
@@ -288,7 +288,7 @@ a {
   width: 166px;
   z-index: 100;
   right: 0;
-  top: 2434px;
+  top: 2377px;
   position: absolute;
   border-bottom: 1px solid #4f0c0c; }
 
@@ -322,7 +322,7 @@ a {
   width: 166px;
   z-index: 100;
   right: 0;
-  top: 2954px;
+  top: 2897px;
   position: absolute;
   border-bottom: 1px solid #4f0c0c; }
 
@@ -407,6 +407,14 @@ a {
   font-weight: 800;
   color: green;
   vertical-align: top; }
+
+.msrpPrice {
+  font-weight: 400;
+  color: black;
+  text-decoration: line-through;
+  padding: 0;
+  margin: 0;
+  font-size: 25px; }
 
 .newHr {
   border-bottom: 1px solid #000;
